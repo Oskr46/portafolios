@@ -1,0 +1,121 @@
+.myName{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    color: white;
+    text-shadow: 5px 5px 2px black;
+    padding-bottom: 35px;
+    grid-area: "myName";
+    text-align: center;
+    justify-items: center;
+    align-content: center;
+    justify-self: center;
+    border-radius: 10px;
+    background: linear-gradient(rgb(0,0,0,0.3),rgb(0,0,0,0.3)), url('../assets/myName_bckgnd.jpg');
+    border: 3px solid rgb(255,255,255,0.2);
+    background-position: center;
+    background-size: cover;
+    width: 97%;
+    height: 100%;
+    user-select: text;
+  }
+  
+  .me{
+    margin-top: 15px;
+    border-radius: 10px;
+    font-size: 18px;
+    padding: 10px;
+    height: auto;
+    min-width: auto;
+    max-width: 1200px;
+    grid-area: "me";
+    justify-self: center;
+    justify-items: center;
+    align-content: center;
+    user-select: text;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .meIn{
+    border: none;
+    border-left: 10px solid rgb(61, 37, 100);
+    border-right: 10px solid rgb(61, 37, 100);
+    border-radius: 20px;
+    padding-bottom: 20px;
+    padding-bottom: 20px;
+    margin: 10px;
+    padding: 10px;
+    min-width: 140px;
+    max-width:500px;
+    transition: all 100ms ease-in;
+  }
+  
+  .meSp{
+    border: none;
+    border-left: 10px solid rgb(61, 37, 100);
+    border-right: 10px solid rgb(61, 37, 100);
+    border-radius: 20px;
+    padding-bottom: 20px;
+    margin: 10px;
+    padding: 10px;
+    min-width: 110px;
+    max-width:500px;
+    transition: all 100ms ease-in;
+  }
+  
+  .meSp:hover{
+    transform: scale(1.04);
+    box-shadow: 1px 1px 10px 2px rgb(70, 3, 255);
+  }
+  
+  .meIn:hover{
+    transform: scale(1.04);
+    box-shadow: 1px 1px 10px 2px rgb(70, 3, 255);
+  }
+  
+  .me h2{
+    text-shadow: 5px 3px 5px black;
+  }
+  
+  .me p{
+    font-size:17px;
+  }
+  
+  .getStarted{
+    height: 40px;
+    min-width: 100px;
+    color:white;
+    box-shadow: 1px 1px 20px 3px black;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 10px;
+    background-color: rgb(108, 11, 235);
+    border: none;
+    cursor: pointer;
+    justify-self: center;
+    transition: all 150ms ease-in;
+  }
+  
+  .getStarted:hover{
+    box-shadow: 1px 1px 20px 3px rgb(70, 3, 255);
+    font-size: 17px;
+  }
+
+  .logo{
+    z-index: 1;
+    animation: rotate 20s infinite ;
+    justify-self: center;
+    margin-top: 0px;
+  }
+  
+  @keyframes rotate {
+    0%{
+      transform: rotate(0deg);
+    }
+    100%{
+      transform: rotate(360deg);
+    }
+    
+  }
+  
+  

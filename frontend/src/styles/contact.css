@@ -1,0 +1,29 @@
+.contenedor{
+    background: rgb(34, 34, 34,0.85);
+    border: none;
+    border-left: 5px solid rgb(39, 25, 90);
+    border-right: 5px solid rgb(39, 25, 90);
+    border-radius: 10px;
+    width: 70%;
+    height: auto;
+    padding: 10px 30px 30px 30px;
+    margin-bottom: 20px;
+    justify-self: center;
+    transition: all 200ms ease;
+    user-select: text;
+}
+
+.contenedor h3{
+    text-align: center;
+    justify-self: center;
+    border-top:6px solid rgb(61, 39, 141);
+    border-bottom:6px solid rgb(61, 39, 141);
+    width: 150px;
+    padding: 10px 0px 10px 5px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.App{
+    border: none;
+}

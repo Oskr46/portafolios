@@ -1,0 +1,65 @@
+#root {
+  max-width: auto;
+  max-height: auto;
+  text-align: center;
+  --header-height:95px;
+  user-select: none;
+}
+
+.button{
+  height: auto;
+  width: auto;
+  padding: 5px 20px;
+  margin: 5px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  background: none;
+  border: none;
+  border-bottom: 2px solid transparent;
+  color: white;
+  transition: all 150ms ease-in;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.button:hover{
+  border-bottom: 3px solid rgb(9, 96, 226);
+  font-size: 17px;
+  border-radius: 3px;
+}
+
+.buttons{
+  display: flex;
+  flex-direction: row;
+}
+
+.header{
+  position: fixed;
+  top:0;
+  left:1%;
+  right: 1%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-width: 100px;
+  max-width: 100%;
+  height:var(--header-height);
+  border-radius: 0px;
+  background: rgb(34, 34, 34,0.85);
+  overflow: hidden;
+  z-index: 3;
+  border-radius: 0px 0px 20px 20px;
+}
+
+.contenido{
+  margin-top: 105px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  grid-template-areas: "myName" "me";
+  gap: 30px
+}
