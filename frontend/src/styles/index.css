@@ -6,4 +6,5 @@
   background-size: contain;
   margin-top: none;
   --header-height:auto;
+  overflow-x: hidden;
 }
